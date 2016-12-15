@@ -367,14 +367,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HKTest/HKTest.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: rulin wang (JZTA4QCWRN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: rulin wang (JZTA4QCWRN)";
 				DEVELOPMENT_TEAM = QWSNT2M7Y3;
 				INFOPLIST_FILE = HKTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wrl.HKTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d9f9ac7e-2735-4881-be3b-b236f731c58b";
 				PROVISIONING_PROFILE_SPECIFIER = wrl_hk_test;
 				SWIFT_VERSION = 3.0;
 			};
@@ -392,7 +391,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wrl.HKTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "dbf35d1a-f33d-4d2d-aded-a481b4b9a8d3";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
